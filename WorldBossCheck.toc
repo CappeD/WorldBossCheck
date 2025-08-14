@@ -1,0 +1,6 @@
+## Interface: 50500
+## Title: WorldBossCheck
+
+## Notes: Checks the weekly kill status of selected World Bosses and displays the results in the chat
+
+WorldBossCheck.lua
