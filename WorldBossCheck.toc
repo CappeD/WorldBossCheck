@@ -1,4 +1,4 @@
-## Interface: 50500
+## Interface: 50501
 ## Title: WorldBossCheck
 
 ## Notes: Checks the weekly kill status of selected World Bosses and displays the results in the chat
