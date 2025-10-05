@@ -1,5 +1,5 @@
 local function CheckWorldBossStatus(input)
-    local currentPhase = 1
+    local currentPhase = 2
 
     local worldBosses = {
         {boss = "Sha of Anger", qid = 32099, phase = 1},
