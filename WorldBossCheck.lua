@@ -1,6 +1,11 @@
 local function CheckWorldBossStatus(input)
     local currentPhase = 2
 
+    local _, _, _, interfaceVersion = GetBuildInfo()
+    if interfaceVersion >= 50503 then
+        currentPhase = 3
+    end
+
     local worldBosses = {
         {boss = "Sha of Anger", qid = 32099, phase = 1},
         {boss = "Galleon", qid = 32098, phase = 1},
